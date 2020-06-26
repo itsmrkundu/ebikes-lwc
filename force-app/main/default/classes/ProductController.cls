@@ -1,5 +1,16 @@
+/**
+ * @File Name          : ProductController.cls
+ * @Description        : 
+ * @Author             : ArindamKundu@itsmrkundu@gmail.com
+ * @Group              : 
+ * @Last Modified By   : ArindamKundu@itsmrkundu@gmail.com
+ * @Last Modified On   : 6/26/2020, 8:24:53 PM
+ * @Modification Log   : 
+ * Ver       Date            Author      		    Modification
+ * 1.0    6/26/2020   ArindamKundu@itsmrkundu@gmail.com     Initial Version
+**/
 public with sharing class ProductController {
-    static Integer PAGE_SIZE = 9;
+    static Integer PAGE_SIZE = 6;
 
     public class Filters {
         @AuraEnabled
